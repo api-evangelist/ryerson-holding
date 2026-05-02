@@ -18,7 +18,7 @@ Ryerson Holding Corporation is a leading value-added processor and distributor o
 
 ## APIs
 
-No public REST APIs have been documented for Ryerson Holding. The company primarily operates through its e-commerce platform at Ryerson.com and uses EDI and ERP integration for wholesale distribution customers.
+No public REST APIs have been documented for Ryerson Holding. The company primarily operates through its e-commerce platform at Ryerson.com and uses EDI and ERP integration for wholesale distribution customers. Metal ordering is available online via the Ryerson.com Metal On-Demand platform.
 
 ## Artifacts
 
@@ -47,6 +47,8 @@ No public REST APIs have been documented for Ryerson Holding. The company primar
 - [Website](https://www.ryerson.com)
 - [E-Commerce](https://www.ryerson.com/)
 - [About](https://www.ryerson.com/about)
+- [Blog](https://www.ryerson.com/blog)
+- [Investors](https://investors.ryerson.com)
 
 ## Maintainers
 

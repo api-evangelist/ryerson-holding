@@ -29,12 +29,19 @@ common:
     url: https://www.ryerson.com/
   - type: About
     url: https://www.ryerson.com/about
+  - type: Blog
+    url: https://www.ryerson.com/blog
+  - type: Investors
+    url: https://investors.ryerson.com
   - type: Vocabulary
     url: >-
       https://raw.githubusercontent.com/api-evangelist/ryerson-holding/refs/heads/main/vocabulary/ryerson-holding-vocabulary.yml
   - type: JSONLDContext
     url: >-
       https://raw.githubusercontent.com/api-evangelist/ryerson-holding/refs/heads/main/json-ld/ryerson-holding-context.jsonld
+  - type: JSONSchema
+    url: >-
+      https://raw.githubusercontent.com/api-evangelist/ryerson-holding/refs/heads/main/json-schema/ryerson-metal-product-schema.json
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
