@@ -1,0 +1,99 @@
+vocabulary:
+  name: Ryerson Holding Vocabulary
+  description: >-
+    Vocabulary and terminology for Ryerson Holding Corporation's industrial metals
+    distribution and processing operations. Covers metal types, forms, grades,
+    processing services, and ordering concepts.
+  version: '2026-05-02'
+  terms:
+    - term: Value-Added Processing
+      definition: >-
+        Secondary manufacturing operations performed on raw metal before distribution,
+        including cutting to length, sawing, slitting, leveling, bending, and welding.
+        Ryerson differentiates itself from pure distributors through these services.
+      tags:
+        - Manufacturing
+        - Processing
+    - term: Metal Distribution
+      definition: >-
+        The business of purchasing metals from mills and selling them to industrial
+        customers in smaller quantities. Ryerson operates service centers across the
+        US, Canada, Mexico, China, and Brazil.
+      tags:
+        - Distribution
+        - Supply Chain
+    - term: Stainless Steel
+      definition: >-
+        A steel alloy with a minimum of 10.5% chromium content providing corrosion
+        resistance. Common grades include 304 (general purpose) and 316 (marine/chemical).
+        Available in sheet, plate, bar, tube, and coil forms.
+      tags:
+        - Materials
+        - Steel
+    - term: Aluminum
+      definition: >-
+        A lightweight, corrosion-resistant metal available in various alloys. Common
+        grades include 6061-T6 (structural), 5052-H32 (forming), and 3003 (general).
+        Available in sheet, plate, bar, tube, and extrusion forms.
+      tags:
+        - Materials
+        - Aluminum
+    - term: Carbon Steel
+      definition: >-
+        Steel with carbon as the primary alloying element. Includes A36 (structural),
+        A516 (pressure vessels), and HR/CR sheets. The most commonly distributed metal
+        by volume.
+      tags:
+        - Materials
+        - Steel
+    - term: Alloy Steel
+      definition: >-
+        Steel with additional alloying elements (chromium, molybdenum, nickel) for
+        enhanced mechanical properties. Common grades include 4140, 4340, and 8620.
+      tags:
+        - Materials
+        - Steel
+    - term: Grade
+      definition: >-
+        The specific composition specification for a metal product, defined by industry
+        standards (ASTM, AISI, SAE). Examples: 304 stainless steel, 6061-T6 aluminum,
+        A36 carbon steel.
+      tags:
+        - Materials
+        - Standards
+    - term: Form
+      definition: >-
+        The physical shape of a metal product. Includes sheet (flat, thin), plate
+        (flat, thicker), bar (solid rod, flat, or hex), tube (hollow round), pipe
+        (hollow for fluid), coil (wound sheet), and structural (angles, channels, beams).
+      tags:
+        - Products
+    - term: Service Center
+      definition: >-
+        A Ryerson facility that stocks metal inventory, performs value-added processing,
+        and ships to customers. Ryerson operates 100+ service centers across North America.
+      tags:
+        - Facilities
+        - Distribution
+    - term: Mill
+      definition: >-
+        A primary metals manufacturer (steel mill, aluminum smelter) from which Ryerson
+        purchases metals for redistribution. Ryerson acts as an intermediary between
+        mills and end customers.
+      tags:
+        - Supply Chain
+        - Manufacturing
+    - term: Metal On-Demand
+      definition: >-
+        Ryerson's e-commerce offering at Ryerson.com enabling customers to order metals
+        online, check order status, and track shipments without calling a sales representative.
+      tags:
+        - E-Commerce
+        - Digital
+    - term: Olympic Steel
+      definition: >-
+        A metals distributor acquired by Ryerson in 2026, expanding Ryerson's capacity
+        and product offerings in flat-rolled steel and specialty metals.
+      tags:
+        - Acquisitions
+        - Distribution

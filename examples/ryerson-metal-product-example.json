@@ -1,0 +1,17 @@
+{
+  "productId": "RYI-SS304-SHT-0375",
+  "sku": "SS304-SHT-0.375x48x120",
+  "name": "304 Stainless Steel Sheet - 3/8\" x 48\" x 120\"",
+  "material": "stainless_steel",
+  "grade": "304",
+  "form": "sheet",
+  "dimensions": {
+    "thickness": 0.375,
+    "width": 48,
+    "length": 120
+  },
+  "unit": "pound",
+  "pricePerUnit": 2.45,
+  "availability": "in_stock",
+  "minimumOrderQuantity": 100
+}

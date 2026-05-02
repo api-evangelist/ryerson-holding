@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12",
+  "$id": "https://api-evangelist.github.io/ryerson-holding/json-schema/ryerson-metal-product-schema.json",
+  "title": "Ryerson Metal Product",
+  "description": "An industrial metal product available through Ryerson Holding's distribution network",
+  "type": "object",
+  "properties": {
+    "productId": {
+      "type": "string",
+      "description": "Unique product identifier"
+    },
+    "sku": {
+      "type": "string",
+      "description": "Stock keeping unit identifier"
+    },
+    "name": {
+      "type": "string",
+      "description": "Product name and description"
+    },
+    "material": {
+      "type": "string",
+      "enum": ["stainless_steel", "aluminum", "carbon_steel", "alloy_steel", "nickel", "copper", "brass"],
+      "description": "Metal material type"
+    },
+    "grade": {
+      "type": "string",
+      "description": "Material grade or alloy specification (e.g., 304, 6061-T6, A36)"
+    },
+    "form": {
+      "type": "string",
+      "enum": ["sheet", "plate", "bar", "tube", "pipe", "coil", "structural", "round", "flat", "hex", "square"],
+      "description": "Physical form of the metal product"
+    },
+    "dimensions": {
+      "type": "object",
+      "properties": {
+        "thickness": {
+          "type": "number",
+          "description": "Thickness in inches"
+        },
+        "width": {
+          "type": "number",
+          "description": "Width in inches"
+        },
+        "length": {
+          "type": "number",
+          "description": "Length in feet or inches"
+        },
+        "diameter": {
+          "type": "number",
+          "description": "Outer diameter in inches (for round/tube products)"
+        }
+      }
+    },
+    "unit": {
+      "type": "string",
+      "enum": ["pound", "foot", "piece", "sheet"],
+      "description": "Unit of measure for ordering"
+    },
+    "pricePerUnit": {
+      "type": "number",
+      "format": "double",
+      "description": "Price per unit of measure in USD"
+    },
+    "availability": {
+      "type": "string",
+      "enum": ["in_stock", "call_for_availability", "special_order"],
+      "description": "Current availability status"
+    },
+    "minimumOrderQuantity": {
+      "type": "number",
+      "description": "Minimum order quantity"
+    }
+  },
+  "required": ["productId", "material", "form"]
+}

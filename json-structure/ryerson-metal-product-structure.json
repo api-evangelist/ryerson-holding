@@ -1,0 +1,72 @@
+{
+  "title": "Ryerson Metal Product",
+  "description": "Structure of an industrial metal product in Ryerson's catalog",
+  "fields": [
+    {
+      "name": "productId",
+      "type": "string",
+      "required": true,
+      "description": "Unique product identifier"
+    },
+    {
+      "name": "sku",
+      "type": "string",
+      "required": false,
+      "description": "Stock keeping unit identifier"
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "required": false,
+      "description": "Product name and description"
+    },
+    {
+      "name": "material",
+      "type": "string",
+      "required": true,
+      "description": "Metal type: stainless_steel, aluminum, carbon_steel, alloy_steel, nickel, copper, brass"
+    },
+    {
+      "name": "grade",
+      "type": "string",
+      "required": false,
+      "description": "Material grade (e.g., 304 stainless, 6061-T6 aluminum, A36 carbon steel)"
+    },
+    {
+      "name": "form",
+      "type": "string",
+      "required": true,
+      "description": "Physical form: sheet, plate, bar, tube, pipe, coil, structural, etc."
+    },
+    {
+      "name": "dimensions",
+      "type": "object",
+      "required": false,
+      "description": "Physical dimensions in inches/feet",
+      "fields": [
+        {"name": "thickness", "type": "number"},
+        {"name": "width", "type": "number"},
+        {"name": "length", "type": "number"},
+        {"name": "diameter", "type": "number"}
+      ]
+    },
+    {
+      "name": "unit",
+      "type": "string",
+      "required": false,
+      "description": "Unit of measure: pound, foot, piece, sheet"
+    },
+    {
+      "name": "pricePerUnit",
+      "type": "number",
+      "required": false,
+      "description": "Price per unit in USD"
+    },
+    {
+      "name": "availability",
+      "type": "string",
+      "required": false,
+      "description": "Availability: in_stock, call_for_availability, special_order"
+    }
+  ]
+}

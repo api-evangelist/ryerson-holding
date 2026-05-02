@@ -1,0 +1,67 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "ryerson": "https://www.ryerson.com/vocab/",
+    "MetalProduct": {
+      "@id": "schema:Product",
+      "@type": "@id"
+    },
+    "productId": {
+      "@id": "schema:identifier",
+      "@type": "schema:Text"
+    },
+    "sku": {
+      "@id": "schema:sku",
+      "@type": "schema:Text"
+    },
+    "name": {
+      "@id": "schema:name",
+      "@type": "schema:Text"
+    },
+    "material": {
+      "@id": "schema:material",
+      "@type": "schema:Text"
+    },
+    "grade": {
+      "@id": "ryerson:grade",
+      "@type": "schema:Text"
+    },
+    "form": {
+      "@id": "ryerson:form",
+      "@type": "schema:Text"
+    },
+    "dimensions": {
+      "@id": "ryerson:dimensions",
+      "@type": "@id"
+    },
+    "thickness": {
+      "@id": "ryerson:thickness",
+      "@type": "schema:Number"
+    },
+    "width": {
+      "@id": "schema:width",
+      "@type": "schema:QuantitativeValue"
+    },
+    "length": {
+      "@id": "schema:depth",
+      "@type": "schema:QuantitativeValue"
+    },
+    "unit": {
+      "@id": "schema:unitCode",
+      "@type": "schema:Text"
+    },
+    "pricePerUnit": {
+      "@id": "schema:price",
+      "@type": "schema:Number"
+    },
+    "availability": {
+      "@id": "schema:availability",
+      "@type": "schema:ItemAvailability"
+    },
+    "minimumOrderQuantity": {
+      "@id": "schema:minValue",
+      "@type": "schema:Number"
+    }
+  }
+}
