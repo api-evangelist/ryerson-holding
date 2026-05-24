@@ -44,6 +44,8 @@ common:
   - type: JSONSchema
     url: >-
       https://raw.githubusercontent.com/api-evangelist/ryerson-holding/refs/heads/main/json-schema/ryerson-metal-product-schema.json
+  - type: LLMsTxt
+    url: https://www.ryerson.com/llms.txt
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
