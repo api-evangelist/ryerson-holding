@@ -3,19 +3,10 @@
   "feeds": [
     {
       "source": "https://www.ryerson.com/blog",
-      "feed_url": "https://www.ryerson.com/blog",
-      "title": "",
       "saved": 0,
-      "method": "none"
-    },
-    {
-      "source": "https://www.ryerson.com/about",
-      "feed_url": "https://www.ryerson.com/about",
-      "title": "",
-      "saved": 0,
-      "method": "none"
+      "error": "empty page content (JS-rendered, nothing extractable)"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T13:07:48Z"
 }
