@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "ryerson-holding",
+    "captured_at": "2026-10-11T193207",
+    "source_url": "https://www.ryerson.com",
+    "source_type": "Website",
+    "file": "ryerson-holding-2026-10-11T193207.png",
+    "bytes": 217159,
+    "capture": "playwright-local"
+  }
+]
