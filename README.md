@@ -64,58 +64,116 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Ryerson Holding Corporation is a leading value-added processor and distributor of industrial metals, with operations across the United States, Canada, Mexico, China, and Brazil. The company offers a broad range of stainless steel, aluminum, carbon steel, and alloy steels in various shapes and forms including coils, sheets, rounds, hexagons, square and flat bars, plates, structural products, and tubes. Ryerson operates an e-commerce platform at Ryerson.com enabling online metal ordering, order status tracking, and shipment management, with integrated Salesforce CRM and SAP ERP systems.
+Ryerson Holding Corporation is a leading value-added processor and distributor of industrial metals, with operations across the United States, Canada, Mexico, China, and Brazil. The company offers a broad range of stainless steel, aluminum, carbon steel, and alloy steels in various shapes and forms. Ryerson operates an e-commerce platform at Ryerson.com enabling online metal ordering, order status tracking, and shipment management. The company has integrated its CRM (Salesforce) with ERP (SAP) for streamlined order management and uses EDI and API-based integration for wholesale distribution operations.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/ryerson-holding/refs/heads/main/apis.yml)
+**Areas:** Industrial Metals · Manufacturing · Metal Distribution · Steel
 
-## Tags
+## Ryerson Holding on APIs.io
 
-- Industrial Metals
-- Manufacturing
-- Metal Distribution
-- Steel
+Everything profiled for Ryerson Holding is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ryerson-holding/](https://apis.io/providers/ryerson-holding/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-24
-- **Modified:** 2026-05-02
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### JSON Schema (1)
 
-No public REST APIs have been documented for Ryerson Holding. The company primarily operates through its e-commerce platform at Ryerson.com and uses EDI and ERP integration for wholesale distribution customers. Metal ordering is available online via the Ryerson.com Metal On-Demand platform.
+The data models the API reads and writes.
 
-## Artifacts
+- [Ryerson Metal Product](https://apis.io/schemas/ryerson-holding/ryerson-metal-product/)
 
-### JSON Schema
+#### JSON Structure (1)
 
-- [Metal Product](json-schema/ryerson-metal-product-schema.json)
+Data models expressed in JSON Structure.
 
-### JSON Structure
+- [Ryerson Metal Product Structure](https://apis.io/json-structure/ryerson-holding/ryerson-metal-product-structure/)
 
-- [Metal Product](json-structure/ryerson-metal-product-structure.json)
+#### JSON-LD (1)
 
-### Examples
+Linked-data contexts for the provider's vocabulary.
 
-- [Metal Product Example](examples/ryerson-metal-product-example.json)
+- [Ryerson Holding Context](https://apis.io/jsonld/ryerson-holding/ryerson-holding-context/)
 
-### JSON-LD Context
+#### Vocabulary (1)
 
-- [Ryerson Holding Context](json-ld/ryerson-holding-context.jsonld)
+The provider's domain terms, defined.
 
-### Vocabulary
+- [Ryerson Holding Vocabulary](https://apis.io/vocabularies/ryerson-holding/ryerson-holding-vocabulary/)
 
-- [Ryerson Holding Vocabulary](vocabulary/ryerson-holding-vocabulary.yml)
+#### Examples (1)
 
-## Common Properties
+Example requests and responses.
+
+- [Ryerson Metal Product Example](https://apis.io/examples/ryerson-holding/ryerson-metal-product-example/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Ryerson Holding — jsonschema rules](https://apis.io/rules/ryerson-holding/ryerson-holding-jsonschema-spectral-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ryerson Holding Domain Security](https://apis.io/security/ryerson-holding/ryerson-holding-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.ryerson.com)
-- [E-Commerce](https://www.ryerson.com/)
-- [About](https://www.ryerson.com/about)
 - [Blog](https://www.ryerson.com/blog)
-- [Investors](https://investors.ryerson.com)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 9.5** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 46.4 |
+| Contract quality | 10.7 |
+| Contract governance | 23.5 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ryerson-holding/](https://apis.io/providers/ryerson-holding/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Ryerson Holding: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ryerson-holding/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
